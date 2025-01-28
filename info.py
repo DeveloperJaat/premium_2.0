@@ -72,24 +72,24 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 VERIFY = bool(environ.get('VERIFY', ))  # Verification On (True) / Off (False)
 DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 24))  # Add time in hours
 DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-1002493567925'))  # Log channel id (make sure bot is admin)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Deenu_dhakad')  # How to open tutorial link for verification
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', '')  # How to open tutorial link for verification
 
 # ============================
 # Link Shortener Configuration
 # ============================
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True)
 SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
 SHORTLINK_API = environ.get('SHORTLINK_API', '')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Deenu_dhakad')  # Tutorial video link for opening shortlink website
+TUTORIAL = environ.get('TUTORIAL', '')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/dreamcinezone')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/dreamcinezone')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_request_group_showtime')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/showtime_movies_webseriess')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/evil00000')
-DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/dreamcinezone')
+DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/showtimelatest')
 OWNERID = int(os.environ.get('OWNERID', '6454955024'))  # Replace with the actual admin ID
 
 # ============================
