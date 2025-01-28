@@ -77,7 +77,7 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', '')  # How to open tutorial link fo
 # ============================
 # Link Shortener Configuration
 # ============================
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True)
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
 SHORTLINK_API = environ.get('SHORTLINK_API', '')
 TUTORIAL = environ.get('TUTORIAL', '')  # Tutorial video link for opening shortlink website
